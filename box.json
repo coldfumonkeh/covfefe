@@ -22,7 +22,7 @@
         "language"
     ],
     "scripts":{
-        "postVersion":"package set location='coldfumonkeh/tweet-box#v`package version`'",
+        "postVersion":"package set location='coldfumonkeh/covfefe#v`package version`'",
         "onRelease":"publish",
         "postPublish":"!git push --follow-tags"
     },

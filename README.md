@@ -20,6 +20,23 @@ Share the love and visit Matt's wishlist: http://www.amazon.co.uk/wishlist/B9PFN
 
 ---
 
+# What it does
+
+You can use this component to convert your text content so it is clear and readable / tweetable (not really)
+
+
+`var strOutput = covfefe.covfefify( 'coverage' );`
+
+The above would result in `covfefe` being returned to the user.
+
+You can also send in a sentence. In this case, the last word in the sentence will be converted:
+
+`var strOutput = covfefe.covfefify( 'Despite the constant negative press coverage' );`
+
+This would result in:
+
+`Despite the constant negative press covfefe`
+
 
 # CommandBox Compatible
 
