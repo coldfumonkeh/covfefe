@@ -1,0 +1,43 @@
+{
+    "name":"Covfefify",
+    "slug":"covfefify",
+    "version":"1.0.0",
+    "author":"Matt Gifford <matt@monkehworks.com>",
+    "location":"coldfumonkeh/covfefe#v1.0.0",
+    "directory":"",
+    "createPackageDirectory":"true",
+    "Homepage":"https://github.com/coldfumonkeh/covfefe",
+    "Documentation":"https://github.com/coldfumonkeh/covfefe",
+    "type":"modules",
+    "Repository":{
+        "type":"git",
+        "URL":"https://github.com/coldfumonkeh/covfefe"
+    },
+    "Bugs":"https://github.com/coldfumonkeh/covfefe/issues",
+    "shortDescription":"Covfefify your words for instant gratification.",
+    "keywords":[
+        "words",
+        "sentences",
+        "covfefe",
+        "language"
+    ],
+    "scripts":{
+        "postVersion":"package set location='coldfumonkeh/tweet-box#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "dependencies":{
+
+    },
+    "devDependencies":{
+        "testbox":"^2.5.0+107"
+    },
+    "installPaths":{
+        "testbox":"testbox"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
